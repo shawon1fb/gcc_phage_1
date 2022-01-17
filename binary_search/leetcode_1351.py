@@ -92,3 +92,11 @@ def count_negatives(grid: List[List[int]]) -> int:
             c += 1
 
     return count
+
+
+def run_this_file():
+    print(f'test case 1 : {count_negatives(test_case_1)}')
+    print(f'test case 2 : {count_negatives(test_case_2)}')
+    print(f'test case 3 : {count_negatives(test_case_3)}')
+    print(f'test case 4 : {count_negatives(test_case_4)}')
+    print(f'test case 5 : {count_negatives(test_case_5)}')
