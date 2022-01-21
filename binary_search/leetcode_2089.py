@@ -37,7 +37,7 @@ def target_indices(nums: List[int], target: int) -> List[int]:
 
 
 def run_this_file():
-    print(target_indices(nums=[1, 2, 5, 2, 3], target=2) == [1,2])
+    print(target_indices(nums=[1, 2, 5, 2, 3], target=2) == [1, 2])
     """ Output = [1,2] """
     print(target_indices(nums=[1, 2, 5, 2, 3], target=3) == [3])
     """ Output: [3] """
