@@ -1,5 +1,4 @@
-
-if __name__ == '__main__':
+def main():
     t: int = int(input())
     for case in range(t):
         (bags, kids) = tuple(map(int, input().split()))
@@ -10,4 +9,8 @@ if __name__ == '__main__':
         for i in range(bags):
             sm += lst[i]
 
-        print(f"Case #{case+1}: {sm % kids}")
+        print(f"Case #{case + 1}: {sm % kids}")
+
+
+if __name__ == '__main__':
+    main()
